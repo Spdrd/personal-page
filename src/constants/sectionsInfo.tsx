@@ -1,8 +1,6 @@
 export const SECTIONS = [
-  { "text": "Inicio", "target": "home" },
-  { "text": "Habilidades", "target": "skills" },
-  { "text": "Proyectos", "target": "projects" },
-  { "text": "Contacto", "target": "contact" }
+  { "text": "Inicio", "target": "home", variant: "primary" },
+  { "text": "Habilidades", "target": "skills", variant: "putlined" }
 ];
 
 export type NavLink = {

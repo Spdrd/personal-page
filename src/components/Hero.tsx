@@ -2,6 +2,7 @@
 
 import { forwardRef } from "react";
 import { NAME, PICTURE_URL, BIO, SOCIALS } from "@/constants/myInfo";
+import { SECTIONS } from "@/constants/sectionsInfo";
 
 const Hero = forwardRef<HTMLDivElement>((props, ref) => {
   return (
@@ -27,23 +28,6 @@ const Hero = forwardRef<HTMLDivElement>((props, ref) => {
       <p className="mt-4 text-lg md:text-xl max-w-2xl text-gray-300">
         {BIO}
       </p>
-
-      {/* Botones */}
-      <div className="mt-8 flex gap-4">
-        <a
-          href="projects"
-          className="px-6 py-3 rounded-xl bg-indigo-500 hover:bg-indigo-600 transition font-medium"
-        >
-          Ver proyectos
-        </a>
-
-        <a
-          href="#contact"
-          className="px-6 py-3 rounded-xl border border-gray-600 hover:bg-gray-800 transition font-medium"
-        >
-          Contáctame
-        </a>
-      </div>
 
       {/* Redes */}
       <div className="mt-10 flex gap-6 text-gray-400">

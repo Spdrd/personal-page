@@ -36,7 +36,7 @@ export default function SidePanel({ show }: SidePanelProps) {
           className="w-full h-full object-cover"
         />
       </div>
-      <h3 className="text-xl font-bold mb-6">
+      <h3 className="text-xl font-bold mb-6 text-indigo-400">
         {NAME}
       </h3>
 
